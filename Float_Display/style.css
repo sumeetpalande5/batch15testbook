@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: aqua;
+
+}
+
+.container>h1{
+    background-color: rgb(113, 154, 154);
+    padding: 20px 10px;
+    text-align: center;
+    color: blue;
+}
+
+.container>img{
+    width: 200px;
+    height: 200px;
+    margin: 20px 15px 10px 0px;
+    background-color: burlywood;
+    padding: 10px;
+
+    float: left;
+    
+}
+
+.container>.text{
+    text-align: justify;
+    color: brown;
+    margin: 20px 10px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.container>.clear{
+    clear:left;
+}

@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+
+h1{
+    color: orangered;
+    direction: ltr;
+    
+    
+}
+p{
+    color: orange;
+    direction: ltr;
+    letter-spacing: 1.5px;
+    word-spacing: 10px;
+    text-indent: 10cm;
+    text-align: justify;
+    width: 80%;
+    border: 5px solid white;
+    padding: 50px;
+    margin: 50px;
+
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.decoration{
+    color: aqua;
+    text-decoration: underline;
+}
+
+#one{
+    color: brown;
+    text-align: centre;
+    margin: 50px 40px;
+    font-size: 30px;
+    text-shadow: 10cap;
+    }

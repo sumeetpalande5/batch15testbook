@@ -1,0 +1,25 @@
+.container{
+    width: 150px;
+}
+
+.container a{
+    background-color: gray;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.container a:hover{
+    background-color: rgb(34, 97, 97);
+    color: white;
+
+}
+
+.container a.active{
+    background-color: #0491aa;
+    color: white;
+}
+

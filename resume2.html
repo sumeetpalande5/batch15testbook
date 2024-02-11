@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Part 2</title>
+    <style>
+        .myDiv{
+            color: orangered;
+        }
+        .myDiv1{
+            color: brown;
+        }
+        .myDiv2{
+            color: blue;
+        }
+        .myDiv3{
+            color: purple;
+        }
+    </style>
+    
+</head>
+<body>
+    <h1>Resume</h1>
+    <div>
+    <img src="Profile_Photo.jpg" alt="Profile Photo Not Found" width="100" height="100">
+    <h3 style="color: green;">Sumeet Deepak Palande</h3>
+    </div>
+    <div>
+        <p>
+        Think back on times you were <span style="color: blue;">successful</span> in previous positions or times your employer praised or rewarded you. Consider what you did to earn recognition and what traits, <span style="color: blue;">skills or abilities</span> helped you achieve success. Whatever you accomplished is likely something other employers would also appreciate in a <span style="color: blue;">new employee</span>.
+        </p>
+    </div>
+
+    <div class="myDiv">
+        <h2>Interests</h2>
+        <ul>
+            <li>Drawing</li>
+            <li>Photography</li>
+            <li>Design</li>
+            <li>Programming</li>
+            <li>Computer Science</li>
+        </ul>
+    </div>
+
+    <div class="myDiv1">
+        <h2>Skills</h2>
+        <ol>
+            <li>Web Design With HTML</li>
+            <li>JavaScript</li>
+            <li>React JS</li> 
+        </ol>
+    </div>
+
+    <div class="myDiv2">
+        <h2>Education</h2>
+        <table border="1" width="30%">
+            <tr>
+                <th>Education Type</th>
+                <th>Name</th>
+                <th>Website</th>
+                <th>Grade</th>
+            </tr>
+            <tr>
+                <td>School</td>
+                <td>Dastur</td>
+                <td><a href="https://www.dasturschools.in/" target="_blank">Dastur</a></td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>UG</td>
+                <td>JSCOE</td>
+                <td><a href="https://jspmjscoe.edu.in/" target="_blank">JSCOE</a></td>
+                <td>A</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="myDiv3">
+        <h2>Contact</h2>
+        <table border="1" width="30%">
+            <tr>
+                <th>Phone</th>
+                <th>Email</th>
+            </tr>
+            <tr>
+                <td>9373025616</td>
+                <td>sumeetpalande5@gmail.com</td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="p1">
+        <h2>Connect With Me</h2>
+        <form>
+            <label>Add your message here:</label>
+            <br>
+            <textarea cols="100" rows="10"></textarea>
+            <br>
+            <br>
+            <button>Submit</button>
+        </form>
+    </div>
+
+    <div id="p2"></div>
+
+    <script type="text/javaScript" src="resume2javascript.js">
+        document.getElementById("p2").innerHtml = "This is The Second Div"
+    </script>
+
+
+</body>
+</html>

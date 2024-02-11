@@ -1,0 +1,22 @@
+:root{
+    --bgColor:black;
+    --txtColor:white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--bgColor);
+    
+}
+
+h1,h2,h3,h4,h5,h6,ul,li,p,span{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    scroll-behavior: smooth;
+    color: var(--txtColor);
+}

@@ -1,0 +1,14 @@
+/* Combinators
+Space,>,+,~ */
+
+/* .container p{
+    color: yellow;
+} */
+
+/* .container > p{
+    color: yellow;
+} */
+
+ul~p{
+    color: red;
+}

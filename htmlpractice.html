@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+
+    <style>
+        .container > h1{
+            color: red;
+
+        }
+        .child{
+            padding: 100px;
+            border: 2px solid;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unordered List</h1>
+    <ul type="disc" style="color: blue;">
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ul>
+    <hr>
+    <h1>Ordered List</h1>
+    <ol type="i">
+        <li>Mango</li>
+        <li>Banana</li>
+        <li>Orange</li>
+    </ol>
+    <hr>
+    <h1>Definition List</h1>
+    <dl>
+        <dt>Mango</dt>
+        <dd>It is yellow in color.</dd>
+        <dt>Orange</dt>
+        <dd>It is in orange color.</dd>
+    </dl>
+    <hr>
+    <h2>Click On The Specific Fruit To See Its Information.</h2>
+    <br>
+    <a href="https://en.wikipedia.org/wiki/Mango" target="_blank">Mango</a>
+    <br>
+    <a href="https://en.wikipedia.org/wiki/Orange_(fruit)" target="_blank">Orange</a>
+    <br>
+    <hr>
+    <h2>Media</h2>
+    <p>Img</p>
+    <p>1.Mango</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Mangos_-_single_and_halved.jpg/330px-Mangos_-_single_and_halved.jpg" alt="No Image" width="300px" height="300px">
+    <p>2.Orange</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Oranges_-_whole-halved-segment.jpg/330px-Oranges_-_whole-halved-segment.jpg" alt="No Image" width="300px" height="300px">
+    <hr>
+    <iframe width="703" height="395" src="https://www.youtube.com/embed/27d6IWp5lVU" title="The Frooti Life" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <hr>
+    <audio src="music.mp3" controls autoplay>Music</audio>
+    <hr>
+    <video src="vedio.mp4" autoplay controls></video>
+    <br>
+    <br>
+    <hr>
+    <table border="1">
+        <caption>Fruits</caption>
+        <tr>
+            <th >Sr.No.</th>
+            <th>Name</th>
+            <th>Color</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Mango</td>
+            <td>Yellow</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Orange</td>
+            <td>Orange</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <div class="container" id="p1">
+        <h1>Div Tag</h1>
+        <h2>Mango</h2>
+        <p>A mango is an edible stone fruit produced by the tropical tree Mangifera indica. It is believed to have originated in southern Asia, particularly in eastern India, Bangladesh, and the Andaman Islands.[1] M. indica has been cultivated in South and Southeast Asia since ancient times resulting in two types of modern mango cultivars: the "Indian type" and the "Southeast Asian type".[2][3] Other species in the genus Mangifera also produce edible fruits that are also called "mangoes", the majority of which are found in the Malesian ecoregion.[4]</p>
+    </div>
+    <h1>Span</h1>
+    <h2>Orange</h2>
+    <p>An orange is a fruit of various <span style="color: blue; background-color: yellowgreen;">citrus</span> species in the family Rutaceae (see list of plants known as orange); it primarily refers to Citrus × sinensis,[1] which is also called <span style="color: blue;">sweet orange</span>, to distinguish it from the related Citrus × aurantium, referred to as bitter orange.</p>
+    <br>
+    <hr>
+    <div class="child">
+        <h1>Registration Form</h1>
+        <form>
+            <label for="name">Full Name :</label>
+            <input type="text" placeholder="Name In Capitals" required>
+            <br>
+            <br>
+            <label for="email">Email Id :</label>
+            <input type="email" placeholder="abc@gmail.com" required>
+            <br>
+            <br>
+            <label for="password">Password :</label>
+            <input type="password" required>
+            <br>
+            <br>
+            <label for="gender">Gender :</label>
+            <input type="radio" name="abc">Male
+            <input type="radio" name="abc">Female
+            <br>
+            <br>
+            <label for="cat">Category :</label>
+            <input type="checkbox">Open
+            <input type="checkbox">OBC
+            <br>
+            <br>
+            <label for="city">City :</label>
+            <select name="sss" id="1">
+                
+                <option value="1">Pune</option>
+                <option value="2">Mumbai</option>
+            </select>
+            <br>
+            <br>
+
+            <button>Submit</button>
+            <button>Clear Form</button>
+
+        </form>
+    </div>
+
+</body>
+</html>

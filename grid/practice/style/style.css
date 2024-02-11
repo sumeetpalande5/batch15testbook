@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.item{
+    padding: 10px;
+    border: 1px solid white;
+    display: grid;
+    grid-row: 2;
